@@ -3,7 +3,9 @@
 Image Classification of handwritten digits in the MNIST dataset using CNN
 
 Modified the architecture of the existing Lenet-5 model.
-![image](https://github.com/AishwaryaHastak/MNIST_Digit_Classification/assets/31357026/ae4d4fcc-acb5-490c-aec6-acab678d49a6)
+
+![image](https://github.com/AishwaryaHastak/MNIST_Digit_Classification/assets/31357026/8a42ecdd-b34d-4b5c-a14b-09cc6996d786)
+
 
 The best achieved accuracy of the modified model is 98.49%
 
