@@ -19,13 +19,13 @@ To do this job, we will build a deep neural net model with multiple convolution 
 
 There are four main parts to the code:
 
-**Loading the Dataset**: The images are of size 28*28 pixels. We transform all images to a common size of 32*32 to be able to implement the LENET architecture.  We load the dataset available in the pytorch datasets class and define the training and testing dataloader.
+**1. Loading the Dataset**: The images are of size 28*28 pixels. We transform all images to a common size of 32*32 to be able to implement the LENET architecture.  We load the dataset available in the pytorch datasets class and define the training and testing dataloader.
 
-**Defining the model**: We define a class for a custom model that inherits nn.Module, which allows for automatic parameter initialization and tracking and gradient computation. We define the layers in the initialization method and define the forward pass.
+**2. Defining the model**: We define a class for a custom model that inherits nn.Module, which allows for automatic parameter initialization and tracking and gradient computation. We define the layers in the initialization method and define the forward pass.
 
-**Training**: We set the model in training mode using model.train(). We iterate over each batch in the training dataloader for n number of epochs, setting the gradients to zero at the beginning of each batch processing, getting the model outputs, calculating loss, and performing a backward pass to calculate the gradients, and then finally updating the model parameters. We calculate and record the loss and accuracy after each epoch.
+**3. Training**: We set the model in training mode using model.train(). We iterate over each batch in the training dataloader for n number of epochs, setting the gradients to zero at the beginning of each batch processing, getting the model outputs, calculating loss, and performing a backward pass to calculate the gradients, and then finally updating the model parameters. We calculate and record the loss and accuracy after each epoch.
 
-**Testing**: We set the model in evaluation mode using model.eval() [which is also a functionality provided by the nn.Module class]. We iterate over the testing dataloader and get the testing loss and accuracy for each epoch.
+**4. Testing**: We set the model in evaluation mode using model.eval() [which is also a functionality provided by the nn.Module class]. We iterate over the testing dataloader and get the testing loss and accuracy for each epoch.
 
 ---
 # OUTPUTS
