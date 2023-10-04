@@ -1,4 +1,4 @@
-# MNIST_Handwritten_Digit_Image_Classification
+# MNIST Handwritten Digit Image Classification
 
 Image Classification of handwritten digits in the MNIST dataset using CNN
 
