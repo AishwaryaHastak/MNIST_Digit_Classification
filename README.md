@@ -10,7 +10,7 @@ Modified the architecture of the existing Lenet-5 model.
 The best achieved accuracy of the modified model is 98.49%
 
 # UNDERSTANDING OF THE PROBLEM
-The problem is a multi-class image classification problem, where we have to identify the handwritten digit in the image.
+The problem is a multi-class image classification problem, where we have to identify the handwritten digit in the image, hence a total of 10 output classes.
 To do this job, we will build a deep neural net model with multiple convolution networks, pooling layers, and fully connected layers. We are making use of the famous LENET architecture for MNIST dataset image classification.
 
 ---
